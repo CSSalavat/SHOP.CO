@@ -100,13 +100,3 @@
   height: 24px;
   cursor: pointer;
 }
-
-.shop {
-  font-size: 20px;
-
-  &::after {
-    content: "v";
-    font-size: 20px;
-    padding-left: 8px;
-  }
-}
