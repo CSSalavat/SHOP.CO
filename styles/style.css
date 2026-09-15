@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-banner {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.top-banner a {
+    color: white;
+text-decoration: underline;
+font-weight: bold;
+}
+
+.btn {
+position: absolute;
+right: 20px;
+top: 18px;
+transform: translateY(-50%);
+background: none;
+border: none;
+color: white;
+font-size: 18px;
+padding: 0;
+line-height: 1;
+}
