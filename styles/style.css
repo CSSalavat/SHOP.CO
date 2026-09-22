@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: satoshi;
+  src: url(/fonts/satoshi/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: integralcf;
+  src: url(/fonts/integralcf/integral-cf-bold.otf);
+}
+
+body {
+  font-family: "satoshi", sans-serif;
+  background-color: #ffffff;
+}
+
+.header-banner {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 9px 0;
+  width: 100%;
+}
+
+.header-banner__container {
+  width: 100%;
+  padding: 0 24px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-banner__text {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.header-banner__link {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.header-banner__close-btn {
+  position: absolute;
+  right: 24px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.main-header {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 24px 0;
+}
+
+.main-header__container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-header__logo-img {
+  height: 22px;
+  display: block;
+  cursor: pointer;
+}
+
+.main-header__nav-list {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.main-header__nav-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main-header__arrow-icon {
+  width: 12px;
+  height: auto;
+  margin-left: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__search {
+  background-color: #f0f0f0;
+  border-radius: 62px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-grow: 1;
+  max-width: 500px;
+  margin-left: auto;
+}
+
+.main-header__search-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.4;
+}
+
+.main-header__search-input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+}
+
+.main-header__actions {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.main-header__action-link img {
+  width: 24px;
+  height: 24px;
+  display: block;
+  cursor: pointer;
+}
+
+.hero-banner {
+  background-color: #f2f0f1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  font-family: satoshi;
+}
+
+.hero-banner__container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-banner__content {
+  max-width: 550px;
+  padding-top: 100px;
+  padding-bottom: 110px;
+  position: relative;
+  z-index: 5;
+}
+
+.hero-banner__title {
+  font-size: 64px;
+  font-family: integralcf;
+  font-weight: 900;
+  line-height: 1;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.hero-banner__subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  opacity: 0.6;
+  margin-bottom: 48px;
+}
+
+.hero-banner__button {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 16px 54px;
+  border-radius: 62px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.hero-banner__stats {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-banner__stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: max-content;
+}
+
+.hero-banner__stat-number {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.hero-banner__stat-desc {
+  font-size: 15px;
+  color: #000000;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+.hero-banner__stat-divider {
+  width: 1px;
+  height: 74px;
+  background-color: #000000;
+  opacity: 0.1;
+  flex-shrink: 0;
+}
+
+.hero-banner__media {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 200px;
+  width: 650px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.hero-banner__models-img {
+  width: auto;
+  height: 100%;
+  margin-left: -220px;
+  object-fit: contain;
+  transform: none;
+  display: block;
+}
+
+.hero-banner__star {
+  position: absolute;
+  z-index: 6;
+}
+
+.hero-banner__star--small {
+  width: 56px;
+  height: 56px;
+  left: 875px;
+  top: 46%;
+}
+
+.hero-banner__star--large {
+  width: 104px;
+  height: 104px;
+  right: 10px;
+  top: 70px;
+}
