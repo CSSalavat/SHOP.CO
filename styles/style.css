@@ -538,7 +538,29 @@ body {
 .customers-slider {
   display: flex;
   gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
   padding: 10px 0;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000000 8%,
+    #000000 92%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000000 8%,
+    #000000 92%,
+    transparent 100%
+  );
 }
 
 .testimonial-card {
