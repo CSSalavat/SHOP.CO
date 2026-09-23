@@ -162,11 +162,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    background-color: #ffffff;
-    color: #000000;
-}
-
 .catalog-layout {
     width: 1240px;
     margin: 0 auto;
@@ -525,12 +520,6 @@ body {
     border-radius: 10px;
     font-size: 12px;
     font-weight: bold;
-}
-
-p,
-button {
-    margin: 0;
-    padding: 0;
 }
 
 .pagination {
