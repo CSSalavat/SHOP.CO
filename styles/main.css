@@ -163,19 +163,8 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background-color: #ffffff;
     color: #000000;
-}
-
-p,
-h1,
-h2,
-h3,
-ul {
-    margin: 0;
-    padding: 0;
 }
 
 .catalog-layout {
