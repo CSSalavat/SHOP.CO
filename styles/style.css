@@ -541,6 +541,8 @@ body {
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 10px 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .container-slider {
@@ -605,4 +607,91 @@ body {
   line-height: 22px;
   color: rgba(0, 0, 0, 0.6);
   margin: 0;
+}
+
+.subscribe-banner {
+  max-width: 1240px;
+  margin: 80px auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.subscribe-banner__container {
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 44px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+.subscribe-banner__title {
+  color: #ffffff;
+  font-family: "integralcf", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 45px;
+  margin: 0;
+  text-transform: uppercase;
+  max-width: 560px;
+}
+
+.subscribe-banner__form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.subscribe-banner__input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.subscribe-banner__icon {
+  position: absolute;
+  left: 18px;
+  width: 20px;
+  height: 16px;
+  opacity: 0.4;
+}
+
+.subscribe-banner__input {
+  width: 100%;
+  padding: 14px 16px 14px 52px;
+  border-radius: 62px;
+  border: none;
+  font-family: "satoshi", sans-serif;
+  font-size: 16px;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.subscribe-banner__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.subscribe-banner__btn {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 62px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
 }
