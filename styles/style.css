@@ -273,3 +273,24 @@ body {
   right: 10px;
   top: 70px;
 }
+
+.brands-bar {
+  background-color: #000000;
+  width: 100%;
+  padding: 44px 0;
+}
+
+.brands-bar__container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands-bar__logo {
+  height: 34px;
+  width: auto;
+  display: block;
+}
