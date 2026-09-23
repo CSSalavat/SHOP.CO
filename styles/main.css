@@ -164,10 +164,7 @@ html {
 
 body {
     margin: 0;
-    /* НАМЕРТВО УБИРАЕТ БЕЛУЮ ПОЛОСУ СВЕРХУ И ПО БОКАМ СТРАНИЦЫ */
     padding: 0;
-    /* Обнуляет внутренние отступы самого тела страницы */
-    font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #000000;
 }
