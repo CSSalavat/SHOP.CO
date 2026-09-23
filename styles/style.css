@@ -435,3 +435,9 @@ body {
   opacity: 0.1;
   margin: 0 200px;
 }
+
+.hr-line {
+  opacity: 0.1;
+  width: 1490px;
+  margin: 0 auto;
+}
