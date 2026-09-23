@@ -19,6 +19,11 @@ body {
   background-color: #ffffff;
 }
 
+footer {
+  font-family: "satoshi", sans-serif;
+  background-color: #ffffff;
+}
+
 .header-banner {
   background-color: #000000;
   color: #ffffff;
@@ -152,7 +157,6 @@ body {
   width: 100%;
   position: relative;
   overflow: hidden;
-  font-family: satoshi;
 }
 
 .hero-banner__container {
@@ -251,7 +255,6 @@ body {
   height: 100%;
   margin-left: -220px;
   object-fit: contain;
-  transform: none;
   display: block;
 }
 
@@ -427,7 +430,6 @@ body {
   text-decoration: none;
   transition: background-color 0.2s ease;
   cursor: pointer;
-  font-family: satoshi;
 }
 
 .section-divider {
@@ -450,7 +452,6 @@ body {
   padding: 70px 64px;
   max-width: 1200px;
   margin: 0 auto;
-  font-family: satoshi;
 }
 
 .section-title {
@@ -483,11 +484,14 @@ body {
   flex: 1 1 calc(35% - 20px);
 }
 
+.card-large {
+  flex: 1 1 calc(65% - 20px);
+}
+
 .section-reviews {
   max-width: 1240px;
   margin: 80px auto 0 auto;
   padding: 0 16px;
-  font-family: satoshi;
   box-sizing: border-box;
 }
 
@@ -614,6 +618,8 @@ body {
   margin: 80px auto;
   padding: 0 16px;
   box-sizing: border-box;
+  position: relative;
+  z-index: 2;
 }
 
 .subscribe-banner__container {
@@ -666,7 +672,6 @@ body {
   padding: 14px 16px 14px 52px;
   border-radius: 62px;
   border: none;
-  font-family: "satoshi", sans-serif;
   font-size: 16px;
   outline: none;
   background-color: #ffffff;
@@ -685,7 +690,6 @@ body {
   border: none;
   background-color: #ffffff;
   color: #000000;
-  font-family: "satoshi", sans-serif;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
@@ -694,4 +698,116 @@ body {
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
+}
+
+.main-footer {
+  background-color: #F0F0F0;
+  margin-top: -180px;
+  padding: 180px 0 80px 0;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+.main-footer__container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.main-footer__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.main-footer__brand-col {
+  max-width: 250px;
+}
+
+.main-footer__logo {
+  font-family: "integralcf", sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  margin: 0 0 25px 0;
+  color: #000000;
+  cursor: pointer;
+}
+
+.main-footer__description {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 35px 0;
+}
+
+.main-footer__socials {
+  display: flex;
+  gap: 12px;
+}
+
+.main-footer__social-link img {
+  width: 36px;
+  height: 36px;
+}
+
+.main-footer__menu-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer__menu-title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0 0 26px 0;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.main-footer__menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-footer__menu-list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  transition: color 0.2s ease;
+}
+
+.main-footer__divider {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 0 25px 0;
+}
+
+.main-footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-footer__copyright {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+.main-footer__payments {
+  display: flex;
+  gap: 1px;
+  cursor: pointer;
+}
+
+.main-footer__payments img {
+  height: 50px;
 }
