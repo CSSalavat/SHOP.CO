@@ -441,3 +441,41 @@ body {
   width: 1490px;
   margin: 0 auto;
 }
+
+.dress-style-section {
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  padding: 70px 64px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: satoshi;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  font-family: integralcf;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+  color: #000000;
+}
+
+.style-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.style-card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 289px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.card-small {
+  flex: 1 1 calc(35% - 20px);
+}
