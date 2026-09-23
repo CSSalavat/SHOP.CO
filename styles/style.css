@@ -115,7 +115,7 @@ body {
   align-items: center;
   gap: 12px;
   flex-grow: 1;
-  max-width: 500px;
+  max-width: 700px;
   margin-left: auto;
 }
 
@@ -342,6 +342,7 @@ body {
   align-items: center;
   overflow: hidden;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 
 .product-card__img {
@@ -474,6 +475,7 @@ body {
   height: 289px;
   overflow: hidden;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .card-small {
